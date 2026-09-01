@@ -39,9 +39,7 @@ class Student {
 
     
     public void displayStudentInfo() {
-        System.out.println("=================================");
         System.out.println("       STUDENT INFORMATION       ");
-        System.out.println("=================================");
         System.out.println("Student ID : " + studentId);
         System.out.println("Name       : " + name);
         System.out.println("Major      : " + major);
@@ -88,9 +86,7 @@ class Course {
 
     
     public void displayCourseInfo() {
-        System.out.println("=================================");
         System.out.println("        COURSE INFORMATION       ");
-        System.out.println("=================================");
         System.out.println("Course Code: " + courseCode);
         System.out.println("Course Name: " + courseName);
         System.out.println("Credits    : " + credits);
@@ -110,9 +106,6 @@ public class CollegeSystem {
         student1.displayStudentInfo();
         System.out.println();
         course1.displayCourseInfo();
-
-        System.out.println("\n---------------------------------\n");
-
         student2.displayStudentInfo();
         System.out.println();
         course2.displayCourseInfo();
